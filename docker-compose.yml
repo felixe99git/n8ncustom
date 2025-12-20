@@ -16,6 +16,7 @@ services:
       - N8N_PROTOCOL=http
       - WEBHOOK_URL=https://felixe99.ddnsfree.com
       - N8N_SECURE_COOKIE=true
+      - NODES_EXCLUDE="[]"
     volumes:
       - n8n_data:/home/node/.n8n
       - /home/complex:/home/node/data
